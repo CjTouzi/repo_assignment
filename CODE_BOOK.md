@@ -49,90 +49,91 @@ three  variables above represent average  of the original standart deviation val
 They represent 3-axial raw acceleration signal of the body measured by accelerometer. X,Y,Z in the variable name describes each axial. 
 
 
-
+```
 time_Gravity_Accelometer_signal_X_Mean_value
 time_Gravity_Accelometer_signal_Y_Mean_value
 time_Gravity_Accelometer_signal_Z_Mean_value
-
-3 variables above represent average  of the original mean value of the time domain signals captured at a constant rate of 50 Hz. 
+```
+three variables above represent average  of the original mean value of the time domain signals captured at a constant rate of 50 Hz. 
 They represent 3-axial raw gavity acceleration signal separated from body signal using another low pass Butterworth filter with a corner frequency of 0.3 Hz  measured by accelerometer. X,Y,Z in the variable name describes each axial. 
 
 
-
+```
 time_Gravity_Accelometer_signal_X_Standard_deviation
 time_Gravity_Accelometer_signal_Y_Standard_deviation
 time_Gravity_Accelometer_signal_Z_Standard_deviation
-
+```
 3 variables above represent average  of the original standard deviation value of the time domain signals captured at a constant rate of 50 Hz. 
 They represent 3-axial raw gavity acceleration signal separated from body signal using another low pass Butterworth filter with a corner frequency of 0.3 Hz  measured by accelerometer. X,Y,Z in the variable name describes each axial.
 
 
-
+```
 time_Body_Accelometer_Jerk_signal_X_Mean_value
 time_Body_Accelometer_Jerk_signal_Y_Mean_value
 time_Body_Accelometer_Jerk_signal_Z_Mean_value
-
-
+```
 linear acceleration and angular velocity measured by accelometer were derived in time to obtain Jerk signals described by 3 variables above. X,Y,Z in the variable name describes each axial.
 Vriables represent average of original mean value.
 
-
+```
 time_Body_Accelometer_Jerk_signal_X_Standard_deviation
 time_Body_Accelometer_Jerk_signal_Y_Standard_deviation
 time_Body_Accelometer_Jerk_signal_Z_Standard_deviation
+```
 
 linear acceleration and angular velocity mesured by accelometer were derived in time to obtain Jerk signals described by 3 variables above. X,Y,Z in the variable name describes each axial.
 Variables represent average of original sandard deviation value.
 
-
+```
 time_Body_Gyroscope_signal_X_Mean_value
 time_Body_Gyroscope_signal_Y_Mean_value
 time_Body_Gyroscope_signal_Z_Mean_value
-
+```
 3 variables above represent average  of the original mean value of the time domain signals captured at a constant rate of 50 Hz. 
 They represent 3-axial raw acceleration signal of the body measured by gyroscope. X,Y,Z in the variable name describes each axial. 
 
-
+```
 time_Body_Gyroscope_signal_X_Standard_deviation
 time_Body_Gyroscope_signal_Y_Standard_deviation
 time_Body_Gyroscope_signal_Z_Standard_deviation
-
+```
 3 variables above represent average  of the original standard deviation value of the time domain signals captured at a constant rate of 50 Hz. 
 They represent 3-axial raw  signal of the body measured by gyroscope. X,Y,Z in the variable name describes each axial. 
 
-
+```
 time_Body_Gyroscope_Jerk_signal_X_Mean_value
 time_Body_Gyroscope_Jerk_signal_Y_Mean_value
 time_Body_Gyroscope_Jerk_signal_Z_Mean_value
-
+```
 linear acceleration and angular velocity mesured by gyroscope were derived in time to obtain Jerk signals described by 3 variables above. X,Y,Z in the variable name describes each axial.
 Variables represent average of original mean values.
 
 
-
-*time_Body_Gyroscope_Jerk_signal_X_Standard_deviation*
-*time_Body_Gyroscope_Jerk_signal_Y_Standard_deviation*
-*time_Body_Gyroscope_Jerk_signal_Z_Standard_deviation*
+```
+time_Body_Gyroscope_Jerk_signal_X_Standard_deviation
+time_Body_Gyroscope_Jerk_signal_Y_Standard_deviation
+time_Body_Gyroscope_Jerk_signal_Z_Standard_deviation
+```
 
 linear acceleration and angular velocity mesured by gyroscope were derived in time to obtain Jerk signals described by 3 variables above. X,Y,Z in the variable name describes each axial.
 3 Variables above represent average of original standard deviation values.
 
 
-
-*time_Body_Accelometer_signal_Magnitude_Mean_value*
-
+```
+time_Body_Accelometer_signal_Magnitude_Mean_value
+```
 variable above was calculated using the Euclidean norm and represent the magnitude of three-dimensional signal of body acceleration mesured by Accelometer.
 Variable represents average of the original mean value
 
-
-*time_Body_Accelometer_signal_Magnitude_Standard_deviation*
-
+```
+time_Body_Accelometer_signal_Magnitude_Standard_deviation
+```
 variable above was calculated using the Euclidean norm and represent the magnitude of three-dimensional signal of body acceleration mesured by Accelometer.
 Variable represents average of the original standard deviation value
 
-
-*time_Gravity_Accelometer_signal_Magnitude_Mean_value*
-
+```
+time_Gravity_Accelometer_signal_Magnitude_Mean_value
+```
 variable above was calculated using the Euclidean norm and represent the magnitude of three-dimensional signal of body acceleration mesured by Accelometer.
 Variable represents average of the original mean value
 
