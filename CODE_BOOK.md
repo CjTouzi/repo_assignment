@@ -20,7 +20,9 @@ The goal of the project was to obtain tidy data set that was grouped by subject 
 **Resulting tidy data set contains following**:
 
 
-**_subject_**
+```
+subject
+```
 ID of the subject from a group of 30 volunteers within an age bracket of 19-48 years:
 
 
@@ -34,17 +36,16 @@ time_Body_Accelometer_signal_X_Mean_value
 time_Body_Accelometer_signal_Y_Mean_value
 time_Body_Accelometer_signal_Z_Mean_value
 ```
-
-3 variables above represent average  of the original mean value of the time domain signals captured at a constant rate of 50 Hz. 
+three variables above represent average  of the original mean value of the time domain signals captured at a constant rate of 50 Hz. 
 They represent 3-axial raw acceleration signal of the body measured by accelerometer. X,Y,Z in the variable name describes each axial. 
 
-
-
+```
 time_Body_Accelometer_signal_X_Standard_deviation	
 time_Body_Accelometer_signal_Y_Standard_deviation
 time_Body_Accelometer_signal_Z_Standard_deviation
+```
 
-3 variables above represent average  of the original standart deviation value of the time domain signals captured at a constant rate of 50 Hz. 
+three  variables above represent average  of the original standart deviation value of the time domain signals captured at a constant rate of 50 Hz. 
 They represent 3-axial raw acceleration signal of the body measured by accelerometer. X,Y,Z in the variable name describes each axial. 
 
 
