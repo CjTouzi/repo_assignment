@@ -174,7 +174,7 @@ Variable represents average of the original standard deviation value
 ```
 time_Body_Gyroscope_Jerk_signal_Magnitude_Mean_value
 time_Body_Gyroscope_Jerk_signal_Magnitude_Standard_deviation
-
+```
 
 ```
 frequency_Body_Accelometer_signal_X_Mean_value
@@ -212,15 +212,15 @@ frequency_Body_Gyroscope_signal_Z_Mean_value
 ```
 three variables above represent average  of the original mean value of the frequency domain signals. They were obtained by appying  Fast Fourier Transform (FFT) to corresponding body acceleration jerk signal mesured by gyroscope. X,Y,Z in the variable name describes each axial. 
 
-
+```
 frequency_Body_Gyroscope_signal_X_Standard_deviation
 frequency_Body_Gyroscope_signal_Y_Standard_deviation
 frequency_Body_Gyroscope_signal_Z_Standard_deviation
+```
+three variables above represent average  of the original standard deviation value of the frequency domain signals. They were obtained by appying  Fast Fourier Transform (FFT) to corresponding body acceleration signals mesured by gyroscope. X,Y,Z in the variable name describes each axial. 
 
-3 variables above represent average  of the original standard deviation value of the frequency domain signals. They were obtained by appying  Fast Fourier Transform (FFT) to corresponding body acceleration signals mesured by gyroscope. X,Y,Z in the variable name describes each axial. 
 
-
-
+```
 frequency_Body_Accelometer_signal_Magnitude_Mean_value
 frequency_Body_Accelometer_signal_Standard_deviation
 frequency_Body_Accelometer_Jerk_signal_Magnitude_Mean_value
@@ -229,7 +229,7 @@ frequency_Body_Gyroscope_signal_Magnitude_Mean_value
 frequency_Body_Gyroscope_signal_Magnitude_Standard_deviation
 frequency_Body_Gyroscope_Jerk_signal_Magnitude_Mean_value
 frequency_Body_Gyroscope_Jerk_signal_Magnitude_Standard_deviation
-
+```
 
 
 
