@@ -20,11 +20,11 @@ The goal of the project was to obtain tidy data set that was grouped by subject 
 **Resulting tidy data set contains following**:
 
 
-*subject*
+**_subject_**
 ID of the subject from a group of 30 volunteers within an age bracket of 19-48 years:
 
 
-*activity*
+**_activity_**
 Activity performed by the test subject while wearing a smartphone (Samsung Galaxy S II) on the waist. Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING)
 
 
