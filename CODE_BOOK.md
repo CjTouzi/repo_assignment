@@ -24,13 +24,15 @@ The goal of the project was to obtain tidy data set that was grouped by subject 
 ID of the subject from a group of 30 volunteers within an age bracket of 19-48 years:
 
 
-**_activity_**
+```
+activity
+```
 Activity performed by the test subject while wearing a smartphone (Samsung Galaxy S II) on the waist. Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING)
 
 ```
--time_Body_Accelometer_signal_X_Mean_value
--time_Body_Accelometer_signal_Y_Mean_value
--time_Body_Accelometer_signal_Z_Mean_value
+time_Body_Accelometer_signal_X_Mean_value
+time_Body_Accelometer_signal_Y_Mean_value
+time_Body_Accelometer_signal_Z_Mean_value
 ```
 
 3 variables above represent average  of the original mean value of the time domain signals captured at a constant rate of 50 Hz. 
