@@ -173,8 +173,15 @@ Variable represents average of the original standard deviation value
 
 ```
 time_Body_Gyroscope_Jerk_signal_Magnitude_Mean_value
+```
+variable above was calculated using the Euclidean norm and represent the magnitude of three-dimensional acceleration jerk signal  mesured by gyroscope.
+Variable represents average of the original mean value
+
+```
 time_Body_Gyroscope_Jerk_signal_Magnitude_Standard_deviation
 ```
+variable above was calculated using the Euclidean norm and represent the magnitude of three-dimensional acceleration jerk signal  mesured by gyroscope.
+Variable represents average of the original standard deviation value
 
 ```
 frequency_Body_Accelometer_signal_X_Mean_value
@@ -222,12 +229,41 @@ three variables above represent average  of the original standard deviation valu
 
 ```
 frequency_Body_Accelometer_signal_Magnitude_Mean_value
-frequency_Body_Accelometer_signal_Standard_deviation
+```
+variable above was calculated using the Euclidean norm and represent the magnitude of three-dimensional body acceleration signal  mesured by accelometer.
+Variable represents average of the original mean value
+
+```
+frequency_Body_Accelometer_signal_Magnitude_Standard_deviation
+```
+variable above was calculated using the Euclidean norm and represent the magnitude of three-dimensional body acceleration signal  mesured by accelometer.
+Variable represents average of the original standard deviation value
+
+```
 frequency_Body_Accelometer_Jerk_signal_Magnitude_Mean_value
+```
+variable above was calculated using the Euclidean norm and represent the magnitude of three-dimensional acceleration jerk signal  mesured by gyroscope.
+Variable represents average of the original mean value
+
+```
 frequency_Body_Accelometer_Jerk_signal_Magnitude_Standard_deviation
+```
+variable above was calculated using the Euclidean norm and represent the magnitude of three-dimensional acceleration jerk signal  mesured by gyroscope.
+Variable represents average of the original standard deviation value
+
+```
 frequency_Body_Gyroscope_signal_Magnitude_Mean_value
+```
+
+```
 frequency_Body_Gyroscope_signal_Magnitude_Standard_deviation
+```
+
+```
 frequency_Body_Gyroscope_Jerk_signal_Magnitude_Mean_value
+```
+
+```
 frequency_Body_Gyroscope_Jerk_signal_Magnitude_Standard_deviation
 ```
 
