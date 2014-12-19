@@ -15,9 +15,9 @@ Original data contained following measures:
 
 The goal of the project was to obtain tidy data set that was grouped by subject and performed activity and contained average values of all mean and standart deviation observations from the original Samsung data set.
 
+Resulting tidy data set contains 30 observations and 68 variables.
 
-
-**Resulting tidy data set contains following**:
+**Resulting tidy data set contains following variables**:
 
 
 ```
