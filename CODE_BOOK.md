@@ -1,14 +1,17 @@
+
 This CODE BOOK was created as a part of a Course project to provide a detailed description of the dataset obtained as a result of maniplation with original Samsung data.
-Steps performed in order to manipulate data are described in README file.
 =============
+
+Steps performed in order to manipulate data are described in README file.
+
 
 Original data contained following measures:
 
-- Triaxial acceleration from the accelerometer (total acceleration) and the estimated body acceleration.
-- Triaxial Angular velocity from the gyroscope. 
-- A 561-feature vector with time and frequency domain variables. 
-- Its activity label. 
-- An identifier of the subject who carried out the experiment.
+* Triaxial acceleration from the accelerometer (total acceleration) and the estimated body acceleration.
+* Triaxial Angular velocity from the gyroscope. 
+* A 561-feature vector with time and frequency domain variables. 
+* Its activity label. 
+* An identifier of the subject who carried out the experiment.
 
 The goal of the project was to obtain tidy data set that was grouped by subject and performed activity and contained average values of all mean and standart deviation observations from the original Samsung data set.
 
