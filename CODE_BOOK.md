@@ -1,6 +1,6 @@
 
-This CODE BOOK was created as a part of a Course project to provide a detailed description of the dataset obtained as a result of maniplation with original Samsung data.
-=============
+**This CODE BOOK was created as a part of a Course project to provide a detailed description of the dataset obtained as a result of maniplation with original Samsung data.**
+
 
 Steps performed in order to manipulate data are described in README file.
 
