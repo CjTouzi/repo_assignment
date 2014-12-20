@@ -15,9 +15,9 @@ Original data contained following measures:
 
 The goal of the project was to obtain tidy data set that was grouped by subject and performed activity and contained average values of all mean and standart deviation observations from the original Samsung data set.
 
-Resulting tidy data set contains 30 observations and 68 variables.
 
-**Resulting tidy data set contains following variables**:
+
+**Resulting tidy data set contains 30 observations and 68 variables. Variables are as follows**:
 
 
 ```
@@ -37,7 +37,7 @@ time_Body_Accelometer_signal_Y_Mean_value
 time_Body_Accelometer_signal_Z_Mean_value
 ```
 three variables above represent average  of the original mean value of the time domain signals captured at a constant rate of 50 Hz. 
-They represent 3-axial raw acceleration signal of the body measured by accelerometer. X,Y,Z in the variable name describes each axial. 
+Variables represent 3-axial raw acceleration signal of the body measured by accelerometer. X,Y,Z in the variable name describes each axial. 
 
 ```
 time_Body_Accelometer_signal_X_Standard_deviation	
@@ -46,7 +46,7 @@ time_Body_Accelometer_signal_Z_Standard_deviation
 ```
 
 three  variables above represent average  of the original standart deviation value of the time domain signals captured at a constant rate of 50 Hz. 
-They represent 3-axial raw acceleration signal of the body measured by accelerometer. X,Y,Z in the variable name describes each axial. 
+Variables represent 3-axial raw acceleration signal of the body measured by accelerometer. X,Y,Z in the variable name describes each axial. 
 
 
 ```
@@ -55,7 +55,7 @@ time_Gravity_Accelometer_signal_Y_Mean_value
 time_Gravity_Accelometer_signal_Z_Mean_value
 ```
 three variables above represent average  of the original mean value of the time domain signals captured at a constant rate of 50 Hz. 
-They represent 3-axial raw gavity acceleration signal separated from body signal using another low pass Butterworth filter with a corner frequency of 0.3 Hz  measured by accelerometer. X,Y,Z in the variable name describes each axial. 
+Variables represent 3-axial raw gavity acceleration signal separated from body signal using another low pass Butterworth filter with a corner frequency of 0.3 Hz  measured by accelerometer. X,Y,Z in the variable name describes each axial. 
 
 
 ```
@@ -64,7 +64,7 @@ time_Gravity_Accelometer_signal_Y_Standard_deviation
 time_Gravity_Accelometer_signal_Z_Standard_deviation
 ```
 three variables above represent average  of the original standard deviation value of the time domain signals captured at a constant rate of 50 Hz. 
-They represent 3-axial raw gavity acceleration signal separated from body signal using another low pass Butterworth filter with a corner frequency of 0.3 Hz  measured by accelerometer. X,Y,Z in the variable name describes each axial.
+Variables represent 3-axial raw gavity acceleration signal separated from body signal using another low pass Butterworth filter with a corner frequency of 0.3 Hz  measured by accelerometer. X,Y,Z in the variable name describes each axial.
 
 
 ```
@@ -242,31 +242,38 @@ Variable represents average of the original standard deviation value
 ```
 frequency_Body_Accelometer_Jerk_signal_Magnitude_Mean_value
 ```
-variable above was calculated using the Euclidean norm and represent the magnitude of three-dimensional acceleration jerk signal  mesured by gyroscope.
+variable above was calculated using the Euclidean norm and represent the magnitude of three-dimensional acceleration jerk signal  mesured by accelometer.
 Variable represents average of the original mean value
 
 ```
 frequency_Body_Accelometer_Jerk_signal_Magnitude_Standard_deviation
 ```
-variable above was calculated using the Euclidean norm and represent the magnitude of three-dimensional acceleration jerk signal  mesured by gyroscope.
+variable above was calculated using the Euclidean norm and represent the magnitude of three-dimensional acceleration jerk signal  mesured by accelometer.
 Variable represents average of the original standard deviation value
 
 ```
 frequency_Body_Gyroscope_signal_Magnitude_Mean_value
 ```
+variable above was calculated using the Euclidean norm and represent the magnitude of three-dimensional body acceleration  signal  mesured by gyroscope.
+Variable represents average of the original mean value
 
 ```
 frequency_Body_Gyroscope_signal_Magnitude_Standard_deviation
 ```
+variable above was calculated using the Euclidean norm and represent the magnitude of three-dimensional body acceleration  signal  mesured by gyroscope.
+Variable represents average of the original standard deviation value
 
 ```
 frequency_Body_Gyroscope_Jerk_signal_Magnitude_Mean_value
 ```
+variable above was calculated using the Euclidean norm and represent the magnitude of three-dimensional body acceleration jerk signal  mesured by gyroscope.
+Variable represents average of the original mean value
 
 ```
 frequency_Body_Gyroscope_Jerk_signal_Magnitude_Standard_deviation
 ```
-
+variable above was calculated using the Euclidean norm and represent the magnitude of three-dimensional acceleration jerk signal  mesured by gyroscope.
+Variable represents average of the original standard deviation value
 
 
 
