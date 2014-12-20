@@ -37,6 +37,10 @@ From each window, a vector of features was obtained by calculating variables fro
 * 'test/X_test.txt': Test set.
 
 * 'test/y_test.txt': Test labels.
+The following files are available for the train and test data. Their descriptions are equivalent. 
+
+* 'train/subject_train.txt': Each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30. 
+
 
 
 **For each record it is provided**:
@@ -65,21 +69,32 @@ Jorge L. Reyes-Ortiz, Alessandro Ghio, Luca Oneto, Davide Anguita. November 2012
 
 ```
 Step 1: Merge the training and the test sets to create one data set.
-I've accomplished that step by
+I've accomplished that step by:
+- reviwing all files to see what data is available in each of them:
+features.txt - this file cotained 2 columns: enumerator and name of 561 variables. those were added to 	training set (X_train.txt) and test set (X_test.txt) as headers
+y_test.txt contained one column with the lables of activities  - I joined this as an additional column to test set
+y_train.txt contained one column with the lables of activities - I joined this as an additional column to train set
+train/subject_train.txt - contains one column with the details of all of the subjects - I joined this as an additional column to both train and test sets
     
 Step 2:  Extracts only the measurements on the mean and standard deviation for each measurement. 
-After reviwing in detail and participating in the discussion forums I identified the as 
+After reviwing in detail and participating in the discussion forums I decided that all columns that have mean() and std() suffixes comply with the condition in the cource project.
+So for my new data set i only selected those columns.
     
 Step 3: Uses descriptive activity names to name the activities in the data set
-This step was accomplished my merding the content of dataset 
+This step was accomplished my merging the content of train and test data sets usin the name of variables 
 
 Step 4:    Appropriately labels the data set with descriptive variable names. 
-I dod not feel that there was a need to rename all the variables, becasue I fealt that their names were descriptive enough fr people in the field.
+I did not feel that there was a need to rename all the variables, becasue I felt that their names were descriptive enough for people in the field.
 However in order to complete this step I renamed all variables to provide the best possible descriptive names to best of my understanding of the measures.
+i aslo provided the description of each of the 68 variables in the CODEBOOK.
 
 
 Last step 5:
 From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
-I accouplished this step by implementing mean to my combined_descr_activity data set grouping it by subject and activity.
+I accouplished this step by appying mean to my combined_descr_activity data set grouping it by subject and activity.
+
+
+My resulting tidy data set has 30 observations and 68 variables. it is available for review at github:
+
 ```
