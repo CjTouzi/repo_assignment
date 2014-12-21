@@ -2,7 +2,7 @@ I have downloaded the data produced by Human Activity Recognition Using Smartpho
 from following location:
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 
-README file provided with date had a following description of the data:
+README.txt file provided with data had a following description of the experiments and collected data:
 
 The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years. 
 Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist. 
@@ -44,7 +44,7 @@ The following files are available for the train and test data. Their description
 
 
 
-License:
+**_License_**:
 
 Use of this dataset in publications must be acknowledged by referencing the following publication [1] 
 [1] Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012
@@ -56,7 +56,7 @@ Jorge L. Reyes-Ortiz, Alessandro Ghio, Luca Oneto, Davide Anguita. November 2012
 **Steps performed to accomplish the Course Project and create tidy data set**:
 
 ```
-Step 1: Merge the training and the test sets to create one data set.
+Step 1: Merge the training and the test sets to create one data set.                                                  
 
 I've accomplished that step by:
 - reviewing all files to see what data is available in each of them:
@@ -94,6 +94,7 @@ I accomplished this step by applying mean() to my combined_descr_activity data s
 
 My resulting tidy data set has 180 x 68 variables (30 subjects * 6 activities= 180 rows X 66 measurement variables + 2 categorical variables). 
 It is available for review at GitHub:
-https://github.com/yuleeya/repo_assignment
+https://github.com/yuleeya/repo_assignment                                                                                                 
+
 
 ```
