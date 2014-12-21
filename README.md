@@ -92,7 +92,8 @@ From the data set in step 4, creates a second, independent tidy data set with th
 I accomplished this step by applying mean() to my combined_descr_activity data set grouping it by subject and activity.
 
 
-My resulting tidy data set has 30 observations and 68 variables. It is available for review at GitHub:
+My resulting tidy data set has 180 x 68 variables (30 subjects * 6 activities= 180 rows X 66 measurement variables + 2 categorical variables). 
+It is available for review at GitHub:
 https://github.com/yuleeya/repo_assignment
 
 ```
